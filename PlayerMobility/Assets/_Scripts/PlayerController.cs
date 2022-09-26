@@ -20,8 +20,8 @@ public class PlayerController : MonoBehaviour
 
         _rb.velocity = VelocityDirection;
 
-        VelocityDirection.y=_rb.velocity.y;
+        //VelocityDirection.y=_rb.velocity.y;
 
-        if (Input.GetKeyDown(KeyCode.Joystick1Button0))_rb.AddForce(Vector3.up * _jumpforce);
+        //if (Input.GetKeyDown(KeyCode.Joystick1Button0))_rb.AddForce(Vector3.up * _jumpforce);
     }
 }
